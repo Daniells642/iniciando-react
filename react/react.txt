@@ -1,0 +1,37 @@
+React - Introdução
+
+cd nome-da-pasta - para acessar a pasta
+
+npx create-react-app minha-pagina - comando usado para criar uma aplicação React JS.
+
+Sempre que precisar criar uma aplicação React utilize o mesmo comando 'npx create-react-app'. A única palavra que muda é o nome da aplicação que é inserida no final deste comando.
+
+npm start - comando usado para que o Node inicie um servidor web local.
+
+
+função para exibir os códigos na tela do navegador.
+
+function App() {
+ return (
+  <header>
+   <h1>Motorola</h1>
+
+   <a href="index.html">
+    <img src="assets/logo.png" alt="Motorola" title="Motorola"/>
+   </a>
+  </header>
+ );
+}
+
+export default App;
+
+
+Trabalhar com uma biblioteca requer que o desenvolvedor decore a sua sintaxe. Em contrapartida, depois de se familiarizar com o código, o processo de desenvolvimento se torna mais rápido e com menos repetições de código.
+
+
+Assim como criamos arquivos .css para definir os estilos a páginas que usavam apenas HTML e CSS, também utilizamos para estilizar páginas React JS - a única parte que muda é na sua importação no arquivo .js e na inserção da classe na tag HTML.
+
+O React JS utiliza a linguagem JavaScript, portanto ele diferencia letras maiúsculas de minúsculas. Por isso, para adicionar uma classe ao elemento é necessário que você escreva a palavra className com o N maiúsculo, do contrário ela não será aplicada.
+
+
+Quando dividimos um projeto em etapas, estamos utilizando a técnica mente programadora. A técnica mente programadora consiste em dividir um problema em partes menores e dessa forma focar e resolver melhor cada problema individualmente.

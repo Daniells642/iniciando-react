@@ -7,6 +7,8 @@ Isso é uma mecânica padrão da construção de componentes com React
 /*Na linha 3 criamos uma função JavaScript com o nome do próprio componente - 
 novamente, um comportamento padrão na codificação de componentes React.*/
 
+import './style.css';
+
 function Header() {
   return (
     <header>Trabalhando com componentes</header>

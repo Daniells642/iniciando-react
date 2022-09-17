@@ -3,7 +3,7 @@ import React from 'react';
 export default function SecaoSobre() {
   return (
     <section>
-       <div>
+       <div id="sobre">
              <h3>QUEM SOMOS NÓS?</h3>
              <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, 
                 a Óticas vida iniciou suas atividades focada no atendimento ao público de renda mais baixa, 
@@ -13,8 +13,8 @@ export default function SecaoSobre() {
                 <div>
                    
                 </div>
-                <img src='../assets/atendimento.png'></img>
-                <img src='../assets/atendimento.png'></img>
+                <img src='../assets/atendimento.png' alt=""/>
+                <img src='../assets/atendimento.png' alt=""/>
                 <div>
                    
                 </div>

@@ -13,8 +13,8 @@ novamente, um comportamento padrão na codificação de componentes React.*/
 function Topo() {
   return (
     <header>
-       <div>
-            <img src='../assets/logo.png'></img>
+       <div className='limitar-secao topo'>
+            <img src='../assets/logo.png' className='img-topo'></img>
 
             <nav>
                 <a href='#produtos'>PRODUTOS</a>

@@ -1,10 +1,11 @@
 import React from 'react';
+/*import './estilo.css';*/
 
 export default function SecaoContato() {
   return (
     <section>
        <div id="contato">
-            <h3>Fale conosco</h3>
+            <h2>Fale conosco</h2>
             <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.
             </p>
             <div>

@@ -1,0 +1,56 @@
+#produtos {
+    width: 100%;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.container-cards {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container-cards div {
+   background-color: #F6F6F6;
+   width: calc(50% - 15px);
+   padding: 20px 10px;
+   margin: 0 0 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.container-cards div h3 {
+    margin:0;
+    font-size: 32px;
+}
+
+.container-cards div img {
+    height: 150px;
+    width: 80%;
+    padding: 30px 30px;
+    background-size: contain;
+}
+
+.container-cards div p {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.lista {
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista li {
+  text-align: left;
+  margin: 5px;
+  border: red solid 2px;
+}

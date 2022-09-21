@@ -11,7 +11,6 @@ body {
 .limitar-secao {
   max-width: 1024px ;
   margin: 0 auto;
-  border: red 2px solid;
 }
 
 h2 {
@@ -20,29 +19,6 @@ h2 {
   margin: 0;
 }
 
-/*TOPO*/
 
-header {
-  padding: 10px 15px;
-  border: red 2px solid;
-}
 
-.topo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  border: yellow 2px solid;
-}
 
-.img-topo {
-  width: 150px;
-}
-
-nav a {
-  font-size: 18px;
-  color: #000;
-  text-decoration: none;
-  padding: 5px;
-  margin: 5px;
-}

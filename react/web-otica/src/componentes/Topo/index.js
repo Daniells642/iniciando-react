@@ -9,11 +9,12 @@ Isso é uma mecânica padrão da construção de componentes com React
 /*Na linha 3 criamos uma função JavaScript com o nome do próprio componente - 
 novamente, um comportamento padrão na codificação de componentes React.*/
 
+import './estilos.css';
 
 function Topo() {
   return (
     <header>
-       <div className='limitar-secao topo'>
+       <div className="limitar-secao topo">
             <img src='../assets/logo.png' className='img-topo'></img>
 
             <nav>

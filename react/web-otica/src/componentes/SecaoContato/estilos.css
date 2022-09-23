@@ -1,0 +1,50 @@
+#contato {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+    background-color: #05031b;
+}
+
+.secao-contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-contato {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+.contato-conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+    justify-items: left;
+    align-items: left;
+    padding: 15px;
+}
+
+.contato-conteudo h4 {
+    text-align: left;
+}
+
+.contato-conteudo div {
+    text-align: left;
+    margin: 5px 0px;
+}
+
+.contato-conteudo div img {
+    width: 18px;
+}
+
+.contato-conteudo div span {
+    font-size: 14px;
+    margin-left: 10px;
+}

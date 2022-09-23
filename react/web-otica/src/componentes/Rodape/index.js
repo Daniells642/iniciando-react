@@ -1,4 +1,5 @@
 import React from 'react';
+import './estilos.css';
 
 export default function Rodape() {
   return (

@@ -53,3 +53,30 @@
   text-align: left;
   margin: 5px;
 }
+
+
+@media (max-width: 768px) {
+    #produtos {
+      padding: 60px 20px;
+    }
+    .container-cards h3 {
+      font-size: 22px; 
+    }
+    .container-cards img {
+      max-height: 100px;
+    }
+    .container-cards p {
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 550px) {
+    #produtos {
+      padding: 60px 10px;
+    }
+    .container-cards div {
+      width: 100%;
+    }
+    #produtos ul {
+      align-items: flex-start;
+    }
+  }

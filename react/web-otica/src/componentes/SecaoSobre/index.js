@@ -14,14 +14,14 @@ export default function SecaoSobre() {
                </div>
              <div className='box-cards'>
               
-              <img src='assets/loja.png' alt=""/>
+                <img src='assets/loja.png' alt=""/>
                 
-                <div>
+                <div className='card'>
                   <h3>Nossas Filiais</h3>
                   <p>Hoje temos mais de 20 filiais pelo Brasil e na América</p>
                 </div>
 
-                <div>
+                <div className='card'>
                   <h3>Atendimento Flexível</h3>
                   <p>Nossa equipe é treinada para te atender</p>
                 </div>
